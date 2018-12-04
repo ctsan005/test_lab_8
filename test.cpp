@@ -24,7 +24,7 @@ TEST(basicTest, test1) {
     Iterator* t = new PreorderIterator(sqr);
 
     
-    PrintVisitor* curr = new PrintVisitor();
+    Visitor* curr = new PrintVisitor();
 
     for(t->first(); !t->is_done(); t->next()){
         
@@ -54,12 +54,12 @@ TEST(basicTest, test2) {
 
 
     
-    Iterator* t = new PreorderIterator(sqr);
+    Iterator* t = new PreorderIterator(sub);
 
     
 
 
-
+    Visitor* curr = new PrintVisitor();
             
     for(t->first(); !t->is_done(); t->next()){
 
