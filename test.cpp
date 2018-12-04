@@ -36,7 +36,7 @@ TEST(basicTest, test1) {
     
     
     
-    EXPECT_EQ(" ^2  *  -  +  9   8   1   2 ", output )
+    EXPECT_EQ(" ^2  *  -  +  9   8   1   2 ", output );
     
 }
 
@@ -73,7 +73,7 @@ TEST(basicTest, test2) {
     
     
     
-    EXPECT_EQ(" -  *  +  9   8   2   1  ", output )
+    EXPECT_EQ(" -  *  +  9   8   2   1  ", output );
     
 }
 
